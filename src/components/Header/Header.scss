@@ -1,0 +1,32 @@
+.header-body {
+    min-height: 75px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    // background: #008AB8;
+    .menu-bar-icon {
+        display: flex;
+        width: 100%;
+        .menu-list-icon, .search-icon, .logo-icon, .chat-icon, .notification-icon {
+            width: 20%;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+        }
+    }
+}
+
+@media only screen and (max-width: 1180px) {
+    .header-body {
+        .logo {
+            width: 40px;
+            margin-left: -20px;
+        }
+    }
+}

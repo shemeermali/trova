@@ -1,0 +1,36 @@
+.tab-body {
+    min-height: 75px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background: #008AB8;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    .bar-bar-items {
+        display: flex;
+        width: 100%;
+        font-size: 20px;
+        .back-icon, .request-tab, .services-tab, .payment-tab {
+            width: 20%;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+        }
+    }
+}
+
+@media only screen and (max-width: 1180px) {
+    .header-body {
+        .logo {
+            width: 40px;
+            margin-left: -20px;
+        }
+    }
+}

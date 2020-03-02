@@ -1,0 +1,58 @@
+{
+  "bookings": [
+    {
+      "id": 20327691,
+      "title": "It has all of your home shopping needs.",
+      "type": "gfhjsgdfjdfh",
+      "description": "It has all of your home shopping needs. the food reminds me of school kitchen food.  The furniture is decent, sturdy.",
+      "period": "for one month",
+      "rate": 45,
+      "upcomingServiceDate": "11.05AM, 12/01/2019",
+      "isRequestCompleted": true,
+      "isServiceCompleted": false,
+      "isPayamentCompleted": false,
+      "requestBy": "gf gjdfhgjkfdhgjk gjhdfkgj",
+      "requestFrom": "gf gjdfhgjkfdhgjk gjhdfkgj",
+      "isDeal": true,
+      "dealMessage": "fhgfjghfdkjg dfgjhdfkjghdf fsgjghjfdkgdf",
+      "serviceRequestTime": "1.01PM, Sunday, December 29th, 2019",
+      "serviceRequestPlace": "fjghjkdfghjdfkgh"
+    },
+    {
+      "id": 20327691,
+      "title": "It has all of your home shopping needs.",
+      "type": "gfhjsgdfjdfh",
+      "description": "It has all of your home shopping needs. the food reminds me of school kitchen food.  The furniture is decent, sturdy.",
+      "period": "for one month",
+      "rate": 45,
+      "upcomingServiceDate": "11.05AM, 12/01/2019",
+      "isRequestCompleted": true,
+      "isServiceCompleted": false,
+      "isPayamentCompleted": false,
+      "requestBy": "gf gjdfhgjkfdhgjk gjhdfkgj",
+      "requestFrom": "gf gjdfhgjkfdhgjk gjhdfkgj",
+      "isDeal": true,
+      "dealMessage": "fhgfjghfdkjg dfgjhdfkjghdf fsgjghjfdkgdf",
+      "serviceRequestTime": "1.01PM, Sunday, December 29th, 2019",
+      "serviceRequestPlace": "fjghjkdfghjdfkgh"
+    },
+    {
+      "id": 20327691,
+      "title": "It has all of your home shopping needs.",
+      "type": "gfhjsgdfjdfh",
+      "description": "It has all of your home shopping needs. the food reminds me of school kitchen food.  The furniture is decent, sturdy.",
+      "period": "for one month",
+      "rate": 45,
+      "upcomingServiceDate": "11.05AM, 12/01/2019",
+      "isRequestCompleted": true,
+      "isServiceCompleted": false,
+      "isPayamentCompleted": false,
+      "requestBy": "gf gjdfhgjkfdhgjk gjhdfkgj",
+      "requestFrom": "gf gjdfhgjkfdhgjk gjhdfkgj",
+      "isDeal": true,
+      "dealMessage": "fhgfjghfdkjg dfgjhdfkjghdf fsgjghjfdkgdf",
+      "serviceRequestTime": "1.01PM, Sunday, December 29th, 2019",
+      "serviceRequestPlace": "fjghjkdfghjdfkgh"
+    }
+  ]
+}

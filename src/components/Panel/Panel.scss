@@ -1,0 +1,204 @@
+.header {
+    height: 140px;
+    position: relative;
+    .background {
+        height: 100%;
+    }
+    .logo {
+        top: 0;
+        left: 50%;
+        width: 60px;
+        z-index: 1000;
+        margin-top: 18px;
+        position: absolute;
+        margin-left: -30px;
+    }
+}
+.bookingServicePanel {
+    display: flex;
+    margin: 25px;
+    border: 1px solid #E8E8E8;
+    .serviceImageUrl {
+        width: 50%;
+        text-align: left;
+    }
+    .serviceDescripion {
+        padding: 15px;
+        width: 50%;
+        text-align: left;
+        .title {
+            color: #5EB2CF;
+            font-size: 28px;
+            font-weight: 500;
+        }
+        .service-type {
+            color:#2B2B2B;
+            text-transform: uppercase;
+            font-size: 18px;
+            font-weight: 500;
+            padding-top: 8px;
+        }
+        .service-description {
+            padding-top: 8px;
+            min-height: 85px;
+            font-size: 18px;
+        }
+    }
+    .session_rate {
+        display: flex;
+        .service-session {
+            width: 50%;
+            color: #A3A3A3;
+            font-size: 25px;
+        }
+        .service-rate {
+            color: rgb(241, 94, 57);
+            font-weight: 600;
+            text-align: right;
+            width: 50%;
+            font-size: 30px;
+        }
+    }
+}
+.bookingServicePanelMoreInfo {
+    margin: 25px;
+    border: 1px solid #F0F0F0;
+    border-radius: 10px;
+    .request-status-info, .requestByInfo, .requestByPicName {
+        display: flex;
+    }
+    .request-status-info {
+        margin: 15px;
+    }
+    .request-status {
+        width: 40%;
+        color: rgb(241, 94, 57);
+        font-weight: 600;
+        font-size: 18px;
+        text-align: left;
+        p {
+            margin: 0px;
+            color: #A3A3A3;
+            font-size: 12px
+        }
+    }
+    .request-status-graph {
+        width: 60%;
+        li {
+            width: 2em;
+            height: 2em;
+            text-align: center;
+            line-height: 2em;
+            border-radius: 1em;
+            background: dodgerblue;
+            margin: 0 1em;
+            display: inline-block;
+            color: white;
+            position: relative;
+          }
+          
+          li::before{
+            content: '';
+            position: absolute;
+            top: .9em;
+            left: -4em;
+            width: 4em;
+            height: .2em;
+            background: dodgerblue;
+            z-index: -1;
+          }
+          
+          
+          li:first-child::before {
+            display: none;
+          }
+          
+          .active {
+            background: dodgerblue;
+          }
+          
+          .active ~ li {
+            background: lightblue;
+          }
+          
+          .active ~ li::before {
+            background: lightblue;
+          }
+    }
+    .requestByPicName { width: 50%}
+    .image { width : 10%; text-align: left; padding-left: 15px; 
+        img {
+            width: 75px;
+            height: 75px;
+            border-radius: 40px;
+        }
+    }
+    .name_location { 
+        width: 80%; 
+        text-align: left; 
+        padding-top: 5px;
+        margin-left: 25px;
+        line-height: 30px;
+        .name {
+            color: #0086B6;
+            font-size: 26px;
+            font-weight: 500;
+            text-align: left;
+        }
+        .location {
+            font-size: 17px;
+            font-weight: 500;   
+        }
+    }
+    .deals { display: flex;}
+    .dealsMesssage {
+        padding-top: 5px;
+        padding-left: 5px;
+        font-size: 26px;
+        font-weight: 500;
+        text-align: left;
+    }
+    .custText {
+        text-align: left;
+        margin-top: 12px;
+        padding-left: 16px;
+    }
+
+}
+.pagination-dots {
+    // display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 4px;
+    margin: 5px;
+  }
+  .actionBtn {
+    display: inline-block; 
+    button {
+        width: 265px;
+        height: 45px;
+        border: 1px solid #008AB8;
+        border-radius: 5px;
+        margin: 30px;
+        background: white;
+        font-size: 20px;
+        font-weight: 500;
+    }
+  }
+
+@media only screen and (max-width: 1180px) {
+    .header {
+        .logo {
+            width: 40px;
+            margin-left: -20px;
+        }
+    }
+}
